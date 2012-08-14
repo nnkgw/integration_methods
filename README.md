@@ -1,4 +1,4 @@
-integration_method
+integration_methods
 ==================
 
-integration method (euler,verlet) comparison test program
+integration methods (euler,verlet) comparison test program
