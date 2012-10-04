@@ -41,7 +41,6 @@ int main (int argc, const char * argv[]) {
 
   printf("# time position.y\n");
   printf("%f %f\n", t, position.y);
-
   switch(method) {
   case eIdeal:
        for(int i = 0; i < step_num; i++) {
@@ -79,4 +78,3 @@ int main (int argc, const char * argv[]) {
   }
   return 0;
 }
-
