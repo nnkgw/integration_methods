@@ -48,8 +48,9 @@ int main (int argc, const char * argv[]) {
     for(int i = 0; i < step_num; i++) {
       f = -k * (x - sx);
       a = f / m;
+      double tmp = x;
       x += (x - prev_x) + a * dt * dt;
-      prev_x = x;
+      prev_x = tmp;
       printf("%f %f\n", t, x);
       t += dt;
      }
