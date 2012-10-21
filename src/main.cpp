@@ -20,7 +20,7 @@ int main (int argc, const char * argv[]) {
     if (strncmp(argv[1], "verlet", 6) == 0) { method = eVerlet; }
     sscanf(argv[2], "%d", &step_num);
   }
-  double dt = 1.0 / (double(step_num) / 4.0);
+  double dt = 1.0 / (double(step_num) / 2.0);
   double t  = 0.0;
   double x  = 0.0;
   double a  = 0.0;
